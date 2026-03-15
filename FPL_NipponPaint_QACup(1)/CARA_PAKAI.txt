@@ -1,0 +1,52 @@
+====================================================
+  FPL Auto-Refresh — Nippon Paint QA Cup
+  PANDUAN PENGGUNAAN
+====================================================
+
+ISI PAKET:
+  - run_refresh.bat       ← Double-klik ini untuk refresh
+  - fpl_refresh.py        ← Script Python (jangan dihapus)
+  - NipponPaint_QA_Cup_FPL.xlsx  ← File Excel hasil
+
+----------------------------------------------------
+CARA PAKAI (Windows):
+----------------------------------------------------
+1. Simpan semua file ini di folder yang sama
+   (misalnya: C:\Users\NamaKamu\FPL\)
+
+2. Double-klik  run_refresh.bat
+
+3. Tunggu beberapa detik — akan muncul jendela hitam
+   yang menampilkan progress pengambilan data
+
+4. Setelah selesai, buka NipponPaint_QA_Cup_FPL.xlsx
+   Data sudah diperbarui sampai GW terbaru!
+
+----------------------------------------------------
+SYARAT:
+----------------------------------------------------
+- Komputer terhubung ke internet
+- Python sudah terinstall
+  (download di https://www.python.org/downloads/)
+  PENTING: Centang "Add Python to PATH" saat install
+
+- Library openpyxl akan otomatis diinstall
+  saat pertama kali run_refresh.bat dijalankan
+
+----------------------------------------------------
+KAPAN PERLU DIJALANKAN:
+----------------------------------------------------
+- Setiap selesai Gameweek (biasanya Selasa/Rabu malam)
+- Data akan otomatis mencakup semua GW yang sudah selesai
+
+----------------------------------------------------
+JIKA ADA ERROR:
+----------------------------------------------------
+- Pastikan koneksi internet aktif
+- Pastikan Python sudah terinstall dan ada di PATH
+- Coba klik kanan run_refresh.bat → "Run as administrator"
+
+====================================================
+  Dibuat untuk Liga: Nippon Paint QA Cup (ID: 1429930)
+  by Perplexity Computer
+====================================================
